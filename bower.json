@@ -1,0 +1,29 @@
+{
+    "name": "app",
+    "version": "0.1.1",
+    "description": "Mobile Web Front-End Library",
+    "author": {
+        "name": "Hoofei",
+        "email": "hoofei@gmail.com",
+        "url": "http://hoofei.com"
+    },
+    "license": "MIT",
+    "homepage": "http://hoofei.com/",
+    "dependencies": {
+        "jquery": ">=2.1.4"
+    },
+    "devDependencies": {
+       "fontawesome": "~4.4.0"
+    },
+    "main": [
+        "dist/**/*"
+    ],
+    "ignore": [
+        "/.*",
+        "_config.yml",
+        "CNAME",
+        "*.md",
+        "gulpfile.js",
+        "package.json"
+    ]
+}
