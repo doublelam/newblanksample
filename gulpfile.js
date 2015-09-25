@@ -48,6 +48,7 @@ var paths = {
     ],
     styles: [
         'src/styles/' + pkg.name + '.less',
+
         'src/styles/*.css',
         'components/fontawesome/css/font-awesome.css'
     ],
@@ -61,7 +62,8 @@ var paths = {
         'components/fontawesome/fonts/fontawesome-webfont.eot',
         'components/fontawesome/fonts/fontawesome-webfont.svg',
         'components/fontawesome/fonts/fontawesome-webfont.ttf',
-        'components/fontawesome/fonts/fontawesome-webfont.woff'
+        'components/fontawesome/fonts/fontawesome-webfont.woff',
+        'components/fontawesome/fonts/fontawesome-webfont.woff2'
     ],
     lib: [
         'components/jquery/dist/jquery.min.js'
