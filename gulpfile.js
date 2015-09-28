@@ -50,6 +50,7 @@ var paths = {
         'src/styles/' + pkg.name + '.less',
 
         'src/styles/*.css',
+        'src/styles/*.less',
         'components/fontawesome/css/font-awesome.css'
     ],
     images: [
