@@ -49,15 +49,22 @@
     width: 380px;
     height: 424px;
     background: white;
-    -webkit-box-shadow: 0 2px 5px  rgba(0,0,0,.5);
-    -moz-box-shadow: 0 2px 5px  rgba(0,0,0,.5);
-    box-shadow: 0 2px 5px  rgba(0,0,0,.5);
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 8px  rgba(0,0,0,.3);
+    -moz-box-shadow: 0 1px 8px  rgba(0,0,0,.3);
+    box-shadow: 0 1px 8px  rgba(0,0,0,.3);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
 }
 //^main-section内的两个盒子位置及样式
 
+.main-image-displayed{
+    width: 480px;
+    height: 524px;
+
+    background: url("../images/main-image.jpg") no-repeat;
+}
+//图片样式
 .main-body{
     margin: auto;
     display: flex;
@@ -65,13 +72,15 @@
     justify-content: center;
     height: 580px;
     width: 1000px;
-    background: green;
+
 
 }
 //^设置中部部分flex，自适应；
 
 .sign-in-box{
     margin-left: auto;
+    padding:30px 40px;
+
 }
 //设置登录框位置及样式
 
@@ -80,3 +89,144 @@
     width: 100%;
     height: 200px;
 }
+//页脚区域样式
+
+.login-box-title{
+    font-size: 1.2em;
+    color: #323232;
+    font-weight: normal;
+
+}
+//登录框内标题
+
+.sign-input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #D3D3D3;
+    margin-top: 20px;
+    padding-left: 45px;
+    font-family: "yahei","sans-serif";
+
+}
+//帐号密码框公用样式
+
+.account-box{
+    background: url("../images/account.jpg") no-repeat;
+}
+//账号小图标
+
+.password-box{
+    background: url("../images/password.jpg") no-repeat;
+}
+//密码框小图标
+
+.auto-login-box{
+    font-size: 12px;
+    margin-top: 28px;
+
+
+}
+//自动登陆选框样式
+
+.auto-login-checkbox{
+
+    width: 13px;
+    height: 13px;
+    background: blue;
+}
+//??复选框样式
+
+
+.login-submit{
+    width: 100%;
+    height: 40px;
+    background: #DB3539;
+    border: none;
+    font-family: "yahei","sans-serif";
+    color: white;
+    font-size: 16px;
+    margin-top: 14px;
+}
+//登录框样式
+
+.straight-login{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+//快捷登录样式
+
+.straight-login :before{
+    width: 110px;
+    height: 1px;
+    position: absolute;
+    content: "";
+    left: 0;
+    background: #ccc;
+    top: 10px;
+}
+
+.straight-login :after{
+    width: 110px;
+    height: 1px;
+    position: absolute;
+    content: "";
+    left: 190px;
+    background: #ccc;
+    top: 10px;
+}
+//快捷登录两边线条
+
+.straight-login-content{
+    display: flex;
+    margin: 20px 0 20px 0;
+
+
+}
+//快捷图标
+.straight-login-content a{
+    flex:1;
+    text-align: center;
+}
+//图标样式
+
+.sign-up{
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+//引导注册样式
+.sign-up a{
+    color: #222;
+}
+//”马上注册“样式
+
+.footer-content-area{
+    width: 1000px;
+    background: blue;
+    margin: auto;
+    display:flex;
+
+}
+//页脚内容区域
+
+.footer-article-area{
+    display: flex;
+
+}
+//页脚文章区域样式
+
+.footer-article{
+    margin-right: 60px;
+}
+//页脚文章样式
+
+.footer-article h1{
+    font-size: 14px;
+    color:#FFFFFF;
+    padding: 18px 0 10px 0;
+
+}
+//
