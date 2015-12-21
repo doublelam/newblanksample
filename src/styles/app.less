@@ -59,8 +59,8 @@
 //^main-section内的两个盒子位置及样式
 
 .main-image-displayed{
-    width: 480px;
-    height: 524px;
+    width: 430px;
+    height: 500px;
 
     background: url("../images/main-image.jpg") no-repeat;
 }
@@ -103,12 +103,18 @@
     height: 40px;
     width: 100%;
     border: 1px solid #D3D3D3;
-    margin-top: 20px;
+    margin-top: 15px;
     padding-left: 45px;
     font-family: "yahei","sans-serif";
 
 }
 //帐号密码框公用样式
+
+.sign-input:hover{
+    border-color: #aaa;
+}
+// 帐号密码框hover
+
 
 .account-box{
     background: url("../images/account.jpg") no-repeat;
@@ -146,8 +152,13 @@
     color: white;
     font-size: 16px;
     margin-top: 14px;
+    
 }
 //登录框样式
+
+.login-submit:hover{
+    background: #FA2929;
+}
 
 .straight-login{
     position: relative;
@@ -184,13 +195,30 @@
     margin: 20px 0 20px 0;
 
 
+
 }
 //快捷图标
-.straight-login-content a{
+.straight-login-content li{
     flex:1;
-    text-align: center;
+    display: flex;
+    height:40px;
+    justify-content:center;
+    color: white;
+    align-items:center;
+
+
 }
 //图标样式
+
+.straight-login-content li:nth-child(1){
+    background: blue;
+}
+.straight-login-content li:nth-child(2){
+    background: red;
+}
+.straight-login-content li:nth-child(3){
+    background: green;
+}
 
 .sign-up{
     text-align: center;
@@ -204,13 +232,17 @@
 //”马上注册“样式
 
 .footer-content-area{
+    position: relative;
+    
     width: 1000px;
-    background: blue;
+    height:160px; 
+    border-bottom: 1px dashed #898989; 
     margin: auto;
     display:flex;
 
 }
 //页脚内容区域
+
 
 .footer-article-area{
     display: flex;
@@ -223,10 +255,49 @@
 }
 //页脚文章样式
 
-.footer-article h1{
+
+
+
+.footer-paragraph{
+    font-size: 12px;
+    color:#A1A1A1;
+   
+}
+// 页脚文章部分内容
+
+.footer-paragraph li{
+    margin-bottom: 9px;    
+}
+
+
+
+.footer-article-title{
     font-size: 14px;
     color:#FFFFFF;
     padding: 18px 0 10px 0;
-
 }
-//yh
+//页脚文章标题
+
+.native-app-scan{
+    position: absolute;
+  
+    right:0;
+}
+
+.qrcode-area li{
+    display: inline-block;
+}
+.qrcode-area li:nth-child(2){
+    margin-left: 40px;
+}
+// qrcode样式
+
+.copyright-info{
+    width: 100%;
+    text-align: center;
+    margin-top:10px;
+    font-size: 14px;
+    color:#888;
+
+} 
+// 底部版权信息

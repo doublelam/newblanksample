@@ -61,7 +61,6 @@
         <div class="main-image-displayed"></div>
         <div class="main-box sign-in-box">
             <h1 class="login-box-title">欢迎来到LIKE-ME</h1>
-
             <form action="" method="get">
                 <input type="text" name="account" placeholder="会员名/邮箱" class="sign-input account-box"/>
                 <input type="password" name="password" placeholder="密码" class="sign-input password-box"/>
@@ -74,11 +73,11 @@
 
             </form>
             <div class="straight-login"><p>快捷登录</p></div>
-            <div class="straight-login-content">
-                <a><i class="fa fa-qq"></i></a>
-                <a><i class="fa fa-weibo"></i></a>
-                <a><i class="fa fa-wechat"></i></a>
-            </div>
+            <ul class="straight-login-content">
+                <li><a><i class="fa fa-qq"></i></a></li>
+                <li><a><i class="fa fa-weibo"></i></a></li>
+                <li><a><i class="fa fa-wechat"></i></a></li>
+            </ul>
             <p class="sign-up">还没帐号?&nbsp<a>马上注册</a></p>
 
         </div>
@@ -87,9 +86,9 @@
         <div class="footer-content-area">
             <section class="footer-article-area">
                 <article class="footer-article">
-                    <h1>新手帮助</h1>
+                    <h1  class="footer-article-title">新手帮助</h1>
                     <p>
-                        <ul>
+                        <ul class="footer-paragraph">
                             <li>如何购买</li>
                             <li>如何购买</li>
                             <li>如何购买</li>
@@ -98,9 +97,9 @@
                     </p>
                 </article>
                 <article class="footer-article">
-                    <h1>新手帮助</h1>
+                    <h1 class="footer-article-title">新手帮助</h1>
                     <p>
-                    <ul>
+                    <ul  class="footer-paragraph">
                         <li>如何购买</li>
                         <li>如何购买</li>
                         <li>如何购买</li>
@@ -109,9 +108,9 @@
                     </p>
                 </article>
                 <article class="footer-article">
-                    <h1>新手帮助</h1>
+                    <h1  class="footer-article-title">新手帮助</h1>
                     <p>
-                    <ul>
+                    <ul  class="footer-paragraph">
                         <li>如何购买</li>
                         <li>如何购买</li>
                         <li>如何购买</li>
@@ -121,11 +120,19 @@
                 </article>
             </section>
             <section>
-                <article>
-                    <h1></h1>
+                <article class="native-app-scan">
+                    <h1  class="footer-article-title">LIKE-ME移动客户端</h1>
+                    <p>
+                        <ul class="qrcode-area">
+                            <li><img src="images/qrcode.jpg" alt=""></li><!-- 
+                             --><li><img src="images/qrcode.jpg" alt=""></li>
+                        </ul>
+                    </p>
                 </article>
             </section>
+
        </div>
+       <div  class="copyright-info"><p>©版权所有:LIKEME·技术支持：微爱科技</p></div>
     </footer>
 <script src="js/jquery.min.js"></script>
 <script src="js/app.min.js"></script>
